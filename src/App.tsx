@@ -6,7 +6,12 @@ function App() {
   return (
     <BrowserRouter>
       <div style={{ height: '60px', width: '60px' }}>
-        <Display globalData={{}} />
+        <Display
+          globalData={{}}
+          setGlobalData={() => {
+            //
+          }}
+        />
       </div>
     </BrowserRouter>
   );
